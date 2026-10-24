@@ -1,0 +1,2 @@
+model,accuracy,balanced_accuracy,macro_f1,train_users,test_users
+ExtraTrees_Focused_x2,0.8502824858757062,0.7562934027777778,0.8066762467120587,9,3

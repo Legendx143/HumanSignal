@@ -1,0 +1,132 @@
+# ==============================================================================
+# HumanSignal Monorepo Root .gitignore
+# Covers Frontend (React/Vite/TS), Backend (FastAPI/Python), AI/ML, and OS/IDE
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# Environment Variables, Secrets & API Keys (CRITICAL)
+# ------------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+!.env.template
+secrets.json
+credentials.json
+*.pem
+*.key
+*.cert
+
+# ------------------------------------------------------------------------------
+# Node.js & Frontend (Vite, TypeScript, React)
+# ------------------------------------------------------------------------------
+node_modules/
+Frontend/node_modules/
+dist/
+Frontend/dist/
+dist-ssr/
+Frontend/dist-ssr/
+build/
+.cache/
+.vite/
+Frontend/.vite/
+.eslintcache
+*.tsbuildinfo
+
+# Logs & Debugging
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ------------------------------------------------------------------------------
+# Python & Backend (FastAPI, Pytest, Uvicorn)
+# ------------------------------------------------------------------------------
+__pycache__/
+Backend/__pycache__/
+Backend/*/__pycache__/
+Backend/*/*/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Python Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+Backend/venv/
+Backend/.venv/
+
+# Testing & Coverage
+.pytest_cache/
+Backend/.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+nosetests.xml
+coverage.xml
+
+# Distribution / Packaging
+*.egg-info/
+*.egg
+.eggs/
+
+# Local databases and runtime stores
+*.sqlite3
+*.db
+*.sqlite
+Backend/storage/*.db
+Backend/storage/*.sqlite
+
+# ------------------------------------------------------------------------------
+# AI & Jupyter Notebooks
+# ------------------------------------------------------------------------------
+.ipynb_checkpoints/
+AI/.ipynb_checkpoints/
+AI/*/.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# ------------------------------------------------------------------------------
+# Operating System & IDE Artifacts
+# ------------------------------------------------------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+
+# Editors
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.swo
+
+# VS Code (preserve extensions/launch recommendations if needed, ignore workspace user state)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.vscode/*.log

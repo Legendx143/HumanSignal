@@ -1,0 +1,49 @@
+user_id,session_id,rows,distinct_labels,labels,baseline_rows
+U01,S001,59,1,Normal,23
+U01,S002,59,2,"Focused, Normal",23
+U01,S003,59,2,"Fatigued, Normal",23
+U01,S004,59,2,"Normal, Overloaded",23
+U02,S005,59,1,Normal,23
+U02,S006,59,2,"Focused, Normal",23
+U02,S007,59,2,"Fatigued, Normal",23
+U02,S008,59,2,"Normal, Overloaded",23
+U03,S009,59,1,Normal,23
+U03,S010,59,2,"Focused, Normal",23
+U03,S011,59,2,"Fatigued, Normal",23
+U03,S012,59,2,"Normal, Overloaded",23
+U04,S013,59,1,Normal,23
+U04,S014,59,2,"Focused, Normal",23
+U04,S015,59,2,"Fatigued, Normal",23
+U04,S016,59,2,"Normal, Overloaded",23
+U05,S017,59,1,Normal,23
+U05,S018,59,2,"Focused, Normal",23
+U05,S019,59,2,"Fatigued, Normal",23
+U05,S020,59,2,"Normal, Overloaded",23
+U06,S021,59,1,Normal,23
+U06,S022,59,2,"Focused, Normal",23
+U06,S023,59,2,"Fatigued, Normal",23
+U06,S024,59,2,"Normal, Overloaded",23
+U07,S025,59,1,Normal,23
+U07,S026,59,2,"Focused, Normal",23
+U07,S027,59,2,"Fatigued, Normal",23
+U07,S028,59,2,"Normal, Overloaded",23
+U08,S029,59,1,Normal,23
+U08,S030,59,2,"Focused, Normal",23
+U08,S031,59,2,"Fatigued, Normal",23
+U08,S032,59,2,"Normal, Overloaded",23
+U09,S033,59,1,Normal,23
+U09,S034,59,2,"Focused, Normal",23
+U09,S035,59,2,"Fatigued, Normal",23
+U09,S036,59,2,"Normal, Overloaded",23
+U10,S037,59,1,Normal,23
+U10,S038,59,2,"Focused, Normal",23
+U10,S039,59,2,"Fatigued, Normal",23
+U10,S040,59,2,"Normal, Overloaded",23
+U11,S041,59,1,Normal,23
+U11,S042,59,2,"Focused, Normal",23
+U11,S043,59,2,"Fatigued, Normal",23
+U11,S044,59,2,"Normal, Overloaded",23
+U12,S045,59,1,Normal,23
+U12,S046,59,2,"Focused, Normal",23
+U12,S047,59,2,"Fatigued, Normal",23
+U12,S048,59,2,"Normal, Overloaded",23

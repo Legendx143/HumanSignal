@@ -1,0 +1,13 @@
+user_id,session_id,feature,fallback,baseline_mean,baseline_std
+U01,S003,task_switches,zero_for_zero_variance,0.0,0.0
+U03,S010,task_switches,zero_for_zero_variance,0.0,0.0
+U03,S012,task_switches,zero_for_zero_variance,0.0,0.0
+U04,S013,task_switches,zero_for_zero_variance,0.0,0.0
+U04,S016,task_switches,zero_for_zero_variance,0.0,0.0
+U06,S021,task_switches,zero_for_zero_variance,0.0,0.0
+U07,S028,task_switches,zero_for_zero_variance,0.0,0.0
+U08,S029,task_switches,zero_for_zero_variance,0.0,0.0
+U09,S034,task_switches,zero_for_zero_variance,0.0,0.0
+U11,S041,task_switches,zero_for_zero_variance,0.0,0.0
+U11,S044,task_switches,zero_for_zero_variance,0.0,0.0
+U12,S048,task_switches,zero_for_zero_variance,0.0,0.0

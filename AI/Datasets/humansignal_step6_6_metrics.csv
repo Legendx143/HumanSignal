@@ -1,0 +1,2 @@
+evaluation,test_users,test_rows,test_sessions,accuracy,balanced_accuracy,macro_f1
+"held-out users, non-baseline windows","U01, U10, U11",432,12,0.7962962962962963,0.7962962962962963,0.7993308160268513

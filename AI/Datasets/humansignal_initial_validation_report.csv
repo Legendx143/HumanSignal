@@ -1,0 +1,9 @@
+check,result
+rows,2832
+columns,27
+missing_values,0
+duplicate_rows,0
+unique_users,12
+unique_sessions,48
+standardized_features,11
+labels,"{'Normal': 1536, 'Focused': 432, 'Fatigued': 432, 'Overloaded': 432}"

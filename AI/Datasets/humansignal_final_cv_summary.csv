@@ -1,0 +1,2 @@
+evaluation,n_samples,n_users,n_features_per_fold,accuracy,balanced_accuracy,macro_f1,focused_recall
+3-fold GroupKFold with fold-wise top-20 feature selection,1296,9,20,0.8487654320987654,0.8487654320987655,0.8504143024971453,0.8364197530864198

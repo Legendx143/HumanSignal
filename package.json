@@ -1,0 +1,16 @@
+{
+  "name": "humansignal-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "HumanSignal Behavioral AI Platform (FastAPI Backend + React Frontend)",
+  "scripts": {
+    "dev": "node dev.js",
+    "start": "node dev.js",
+    "backend": "python Backend/start_backend.py",
+    "frontend": "npm --prefix Frontend run dev",
+    "test:backend": "python -m pytest Backend/tests -v",
+    "build": "npm --prefix Frontend run build",
+    "preview": "npm --prefix Frontend run preview"
+  }
+}
